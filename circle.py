@@ -6,11 +6,11 @@ import math
 
 class GeometryCalculator:
 
-    def calculate_circle_area(self, radius): return math.pi * radius ** 2
+    # def calculate_circle_area(self, radius): return math.pi * radius ** 2
 
  
 
-def calculate_rectangle_area(self, length, width): return length * width
+    def calculate_rectangle_area(self, length, width): return length * width
 
  
 
@@ -22,8 +22,9 @@ if __name__ == "main": calculator = GeometryCalculator()
 
  
 
-# TODO: Implement the feature to calculate the area of a rectangle # length = 10
+# TODO: Implement the feature to calculate the area of a rectangle # 
+length = 10
 
-# width = 6
+width = 6
 
-# print(f"The area of the rectangle with length {length} and width {width} = {calculator.calculate_rectangle_area(length, width)}")
+print(f"The area of the rectangle with length {length} and width {width} = {calculator.calculate_rectangle_area(length, width)}")
